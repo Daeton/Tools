@@ -1,5 +1,5 @@
 
-# Daeton Development Tools
+# Development Tools
 
 *Tools designed to help you develop Daeton and packages for it.*
 

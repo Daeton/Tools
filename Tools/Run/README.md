@@ -58,7 +58,7 @@ sudo chmod ug+x Tools/Tools/Run/Tools.js
 *Consider creating a shortcut in your* <br>
 *workspace to make starting easier.*
 
-1. Create the file `<Workspace>/Tool`
+1. Create the file `<Workspace>/Run`
 
 2. Paste the following inside:
 
@@ -70,7 +70,7 @@ Tools/Tools/Run/Tool.js
 3. Make it executable:
 
 ```shell
-sudo chmod ug+x Tool
+sudo chmod ug+x Run
 ```
 
 <br>
