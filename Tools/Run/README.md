@@ -1,5 +1,5 @@
 
-# Run Tool
+# ![Badge Run]
 
 *A tool designed to start Daeton from source.*
 
@@ -17,6 +17,7 @@ Starts the relatively located Daeton `App.js` with:
 
 <br>
 <br>
+<br>
 
 ## Starting
 
@@ -27,10 +28,13 @@ Tools/Tools/Run/Tools.js
 ```
 
 <br>
+<br>
 
 ### Permission Denied
 
 *You may have to make it executable.*
+
+<br>
 
 #### Graphical
 
@@ -38,12 +42,15 @@ Tools/Tools/Run/Tools.js
 
 Turn on `Is Executable`.
 
+<br>
+
 #### Command
 
 ```shell
 sudo chmod ug+x Tools/Tools/Run/Tools.js
 ```
 
+<br>
 <br>
 
 ### Shortcut
@@ -67,3 +74,9 @@ sudo chmod ug+x Tool
 ```
 
 <br>
+
+
+
+<!--❮ Badges ❯----------------------------------------------------------------->
+
+[Badge Run]: https://img.shields.io/static/v1?label=&message=Run&color=gray&style=for-the-badge&labelColor=CB2E6D&logoColor=white&logo=AzurePipelines
