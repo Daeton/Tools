@@ -19,19 +19,27 @@ log('\n','Using Deno from:','\n',deno,'\n');
 
 const
     location = dirname(fromFileUrl(import.meta.url)),
-    app = join(location,'..','..','..','Editor','Source','App.js');
+    source = join(location,'..','..','..','Editor','Source');
+    
+const
+    imports = join(source,'Imports.json'),
+    app = join(source,'App.js');
 
 log('\n','Starting editor from:','\n',app,'\n');
 
 
-const permissions = [];
+const 
+    permissions = '--allow-all',
+    importmap = `--importmap=${ imports }`,
+    unstable = '--unstable';
+
 
 
 const process = run({
     stdout : 'inherit' ,
     stderr : 'inherit' ,
     stdin  : 'inherit' ,
-    cmd    : [ deno , 'run' , ...permissions , app ]
+    cmd    : [ deno , 'run' , permissions , unstable , importmap , app ]
 });
 
 await process.status();
