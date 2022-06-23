@@ -14,7 +14,11 @@ Please follow the **[Workspace Setup]** guide.
 
 ## Tools
 
-[![Button Run]][Run] 
+<br>
+
+[![Button Run]][Run]
+
+        *Starts Daeton from source.*
 
 <br>
 
